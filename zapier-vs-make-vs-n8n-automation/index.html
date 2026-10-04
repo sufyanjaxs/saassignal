@@ -11,11 +11,21 @@
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://sufyanjaxs.github.io/saassignal/zapier-vs-make-vs-n8n-automation/">
 <meta property="og:site_name" content="StackSignal">
-<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://sufyanjaxs.github.io/saassignal/zapier-vs-make-vs-n8n-automation/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Zapier vs Make vs n8n: We Ran the Same 14-Step Automation on All Three">
+<meta name="twitter:image" content="https://sufyanjaxs.github.io/saassignal/zapier-vs-make-vs-n8n-automation/og.png">
 <meta name="twitter:title" content="Zapier vs Make vs n8n: We Ran the Same 14-Step Automation on All Three">
 <meta name="twitter:description" content="A hands-on comparison of Zapier, Make and n8n on one real business workflow, with hours saved, failure rates, monthly cost and the hidden cost of maintenance.">
 <link rel="alternate" type="application/rss+xml" title="StackSignal" href="/feed.xml">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/icon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#0b63d6">
+<meta name="apple-mobile-web-app-title" content="StackSignal">
 <link rel="stylesheet" href="/style.css">
 <meta property="article:published_time" content="2026-09-24"><script type="application/ld+json">{
  "@context": "https://schema.org",
@@ -72,7 +82,7 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="site">
   <div class="wrap bar">
-    <a class="logo" href="/"><span class="mark">◈</span>StackSignal</a>
+    <a class="logo" href="/"><img src="/icon-192.png" alt="" width="28" height="28">StackSignal</a>
     <button class="navtoggle" aria-label="Menu" aria-expanded="false" onclick="var n=document.getElementById('nav');var o=n.style.display;n.style.display=o==='none'||!o?'block':'none';this.setAttribute('aria-expanded',o==='none'||!o)">☰</button>
     <nav id="nav" class="nav">
       <a href="/ai-tools/">AI Tools</a><a href="/saas-reviews/">SaaS Reviews</a><a href="/automation/">Automation</a><a href="/remote-work/">Remote Work</a><a href="/growth-analytics/">Growth &amp; Analytics</a><a href="/monetization/">Monetization</a>
@@ -85,7 +95,7 @@
 <div class="scores"><span><b>Build speed</b>Make</span><span><b>Cost at scale</b>n8n</span><span><b>Reliability</b>Zapier</span><span><b>Error handling</b>n8n</span></div></aside><nav class="crumbs"><a href="/">Home</a> / <a href="/automation/">Automation</a> / <span>Zapier vs Make vs n8n: We Ran the Same 14-Step Automation on All Three</span></nav>
 <h1>Zapier vs Make vs n8n: We Ran the Same 14-Step Automation on All Three</h1>
 <p class="dek">Same workflow, three automation platforms, four weeks. The cheapest option was not the one that saved the most time.</p>
-<div class="byline"><span class="av">S</span>
+<div class="byline"><span class="av"><img src="/icon-192.png" alt="" width="40" height="40"></span>
 <p><b>Sufyan Khan</b> · Updated 2026-09-24 · 8 min read<br>
 <span class="small">Full tool matrix below. Links marked ⟶ are affiliate links.</span></p></div>
 <div class="ad" role="complementary" aria-label="Advertisement"><span>Advertisement</span><!-- ad slot: Advertisement --></div>
@@ -106,6 +116,7 @@
 <p>the boring part. n8n costs roughly double the setup time for a 14-step flow — you are</p>
 <p>building, not clicking. That gap closed as the flow got more custom, but the first-day cost</p>
 <p>is real.</p>
+<figure class="fig"><img src="/zapier-vs-make-vs-n8n-automation/charts/automation-cost.png" alt="What 300 automation runs actually cost, by platform. Zapier $159/mo, Make $49/mo, n8n self-hosted ~$5/mo." loading="lazy" width="1000" height="620"><figcaption>What 300 automation runs actually cost, by platform. Zapier $159/mo, Make $49/mo, n8n self-hosted ~$5/mo.</figcaption></figure>
 <h2>Reliability over 300 runs</h2>
 <p>Every platform had failures. The question is what happens next.</p>
 <div class='tw'><table><thead><tr><th>Platform</th><th>Failed runs</th><th>Auto-recovered</th><th>Needed a human</th></tr></thead><tbody><tr><td>Zapier</td><td>7</td><td>6</td><td>1</td></tr><tr><td>Make</td><td>6</td><td>5</td><td>1</td></tr><tr><td>n8n</td><td>9</td><td>8</td><td>1</td></tr></tbody></table></div>
@@ -120,6 +131,7 @@
 <p>two. Make's cheaper operations model stayed affordable. Self-hosted n8n is roughly an order</p>
 <p>of magnitude cheaper and the cost curve flattens instead of stepping up — but you own the</p>
 <p>uptime, the updates and the on-call reality.</p>
+<figure class="fig"><img src="/zapier-vs-make-vs-n8n-automation/charts/automation-total-cost.png" alt="Total monthly cost including maintenance time at a $60/hr rate. Zapier $240, Make $115, n8n $315." loading="lazy" width="1000" height="620"><figcaption>Total monthly cost including maintenance time at a $60/hr rate. Zapier $240, Make $115, n8n $315.</figcaption></figure>
 <h2>Maintenance, the real cost</h2>
 <p>Nobody prices this and everyone pays it.</p>
 <ul>
@@ -155,18 +167,21 @@
 <form class="sub" action="/subscribe/" method="post"><label class="sr" for="s2">Email</label><input id="s2" name="email" type="email" placeholder="you@company.com" required><button>Subscribe</button></form></div>
 <section class="rel"><h2>Related reading</h2><div class="cards"><article class="card">
 <a class="cl" href="/chatgpt-vs-claude-for-business/">
+<img class="thumb" src="/chatgpt-vs-claude-for-business/og.png" alt="" loading="lazy" width="1200" height="630">
 <span class="cat">AI Tools</span>
 <h3>ChatGPT vs Claude for Business Writing: Which One We&#x27;d Buy</h3>
 <p>A practical comparison of ChatGPT Team and Claude team plans for business writing, with token cost data, tone consistency tests and a clear recommendation.</p>
 <span class="meta">Updated 2026-09-28 · 8 min read</span>
 </a></article><article class="card">
 <a class="cl" href="/best-ai-tools-for-small-business/">
+<img class="thumb" src="/best-ai-tools-for-small-business/og.png" alt="" loading="lazy" width="1200" height="630">
 <span class="cat">AI Tools</span>
 <h3>7 AI Tools a Small Business Can Actually Budget For</h3>
 <p>Seven AI tools under $100/month that a small team can deploy this week, with real token costs, trial notes and the two that did not survive our test.</p>
 <span class="meta">Updated 2026-10-02 · 8 min read</span>
 </a></article><article class="card">
 <a class="cl" href="/notion-vs-obsidian-for-team-knowledge/">
+<img class="thumb" src="/notion-vs-obsidian-for-team-knowledge/og.png" alt="" loading="lazy" width="1200" height="630">
 <span class="cat">SaaS Reviews</span>
 <h3>Notion vs Obsidian for a Team Knowledge Base: Six Months In</h3>
 <p>Six months of running a team knowledge base in both Notion and Obsidian, covering setup, search quality, permissions, and the migration cost nobody warns you about.</p>
@@ -175,7 +190,7 @@
 <footer class="site">
   <div class="wrap grid">
     <div>
-      <p class="flogo"><span class="mark">◈</span>StackSignal</p>
+      <p class="flogo"><img src="/icon-192.png" alt="" width="22" height="22">StackSignal</p>
       <p>Independent reviews of B2B software and AI tools. Some links are affiliate links — see our <a href="/disclosure/">disclosure</a>. We never sell guest posts or accept payment for a rating.</p>
     </div>
     <div><h4>Sections</h4><a href="/ai-tools/">AI Tools</a><a href="/saas-reviews/">SaaS Reviews</a><a href="/automation/">Automation</a><a href="/remote-work/">Remote Work</a><a href="/growth-analytics/">Growth &amp; Analytics</a><a href="/monetization/">Monetization</a></div>
