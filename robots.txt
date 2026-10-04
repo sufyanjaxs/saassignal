@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /search/
-Sitemap: https://saassignal.com/sitemap.xml
+Sitemap: https://sufyanjaxs.github.io/saassignal/sitemap.xml
