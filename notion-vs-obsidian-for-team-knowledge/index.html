@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Notion vs Obsidian for a Team Knowledge Base: Six Months In</title>
+<meta name="description" content="Six months of running a team knowledge base in both Notion and Obsidian, covering setup, search quality, permissions, and the migration cost nobody warns you about.">
+<link rel="canonical" href="https://saassignal.com/notion-vs-obsidian-for-team-knowledge/">
+<meta property="og:title" content="Notion vs Obsidian for a Team Knowledge Base: Six Months In">
+<meta property="og:description" content="Six months of running a team knowledge base in both Notion and Obsidian, covering setup, search quality, permissions, and the migration cost nobody warns you about.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://saassignal.com/notion-vs-obsidian-for-team-knowledge/">
+<meta property="og:site_name" content="StackSignal">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Notion vs Obsidian for a Team Knowledge Base: Six Months In">
+<meta name="twitter:description" content="Six months of running a team knowledge base in both Notion and Obsidian, covering setup, search quality, permissions, and the migration cost nobody warns you about.">
+<link rel="alternate" type="application/rss+xml" title="StackSignal" href="/feed.xml">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+<meta property="article:published_time" content="2026-09-20"><script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "BlogPosting",
+ "headline": "Notion vs Obsidian for a Team Knowledge Base: Six Months In",
+ "description": "Six months of running a team knowledge base in both Notion and Obsidian, covering setup, search quality, permissions, and the migration cost nobody warns you about.",
+ "datePublished": "2026-09-20",
+ "dateModified": "2026-09-20",
+ "author": {
+  "@type": "Person",
+  "name": "Sufyan Khan",
+  "url": "https://saassignal.com/about/"
+ },
+ "publisher": {
+  "@type": "Organization",
+  "name": "StackSignal",
+  "url": "https://saassignal.com",
+  "logo": {
+   "@type": "ImageObject",
+   "url": "https://saassignal.com/logo.png"
+  }
+ },
+ "mainEntityOfPage": "https://saassignal.com/notion-vs-obsidian-for-team-knowledge/",
+ "articleSection": "SaaS Reviews",
+ "keywords": "notion, obsidian, knowledge base, saas, teams",
+ "image": "https://saassignal.com/og.png"
+}</script>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "Home",
+   "item": "https://saassignal.com/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "SaaS Reviews",
+   "item": "https://saassignal.com/saas-reviews/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "name": "Notion vs Obsidian for a Team Knowledge Base: Six Months In",
+   "item": "https://saassignal.com/notion-vs-obsidian-for-team-knowledge/"
+  }
+ ]
+}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap bar">
+    <a class="logo" href="/"><span class="mark">◈</span>StackSignal</a>
+    <button class="navtoggle" aria-label="Menu" aria-expanded="false" onclick="var n=document.getElementById('nav');var o=n.style.display;n.style.display=o==='none'||!o?'block':'none';this.setAttribute('aria-expanded',o==='none'||!o)">☰</button>
+    <nav id="nav" class="nav">
+      <a href="/ai-tools/">AI Tools</a><a href="/saas-reviews/">SaaS Reviews</a><a href="/automation/">Automation</a><a href="/remote-work/">Remote Work</a><a href="/growth-analytics/">Growth &amp; Analytics</a><a href="/monetization/">Monetization</a>
+    </nav>
+  </div>
+  <div class="wrap"><p class="tag">B2B SaaS & AI tools, tested not hyped. <a href="/about/">How we test →</a></p></div>
+</header>
+<main id="main" class="wrap">
+<aside class="verdict"><h4>Our verdict</h4><p>Notion won for shared team knowledge. Obsidian won for personal thinking and for anything touching code or sensitive data.</p>
+<div class="scores"><span><b>Onboarding</b>Notion</span><span><b>Search</b>Tie</span><span><b>Permissions</b>Notion</span><span><b>Data ownership</b>Obsidian</span><span><b>Offline</b>Obsidian</span></div></aside><nav class="crumbs"><a href="/">Home</a> / <a href="/saas-reviews/">SaaS Reviews</a> / <span>Notion vs Obsidian for a Team Knowledge Base: Six Months In</span></nav>
+<h1>Notion vs Obsidian for a Team Knowledge Base: Six Months In</h1>
+<p class="dek">We ran both in parallel for six months. One became the memory of the company and the other became a graveyard of orphaned notes.</p>
+<div class="byline"><span class="av">S</span>
+<p><b>Sufyan Khan</b> · Updated 2026-09-20 · 8 min read<br>
+<span class="small">Full tool matrix below. Links marked ⟶ are affiliate links.</span></p></div>
+<div class="ad" role="complementary" aria-label="Advertisement"><span>Advertisement</span><!-- ad slot: Advertisement --></div>
+<aside class="toc"><b>In this guide</b><ol><li><a href="#the-setup-difference-is-not-the-point">The setup difference is not the point</a></li><li><a href="#search-is-where-most-knowledge-bases-actually-fail">Search is where most knowledge bases actually fail</a></li><li><a href="#permissions-and-the-things-you-cannot-undo">Permissions and the things you cannot undo</a></li><li><a href="#data-ownership-and-the-lock-in-question">Data ownership and the lock-in question</a></li><li><a href="#performance-and-scale">Performance and scale</a></li><li><a href="#the-honest-recommendation">The honest recommendation</a></li></ol></aside>
+<article class="body"><p>Knowledge base decisions are usually made by whoever is most excited about the tool. We</p>
+<p>ran both for six months with the same team and the same content, then looked at what</p>
+<p>people actually opened.</p>
+<h2>The setup difference is not the point</h2>
+<p>Notion got live in an afternoon. Templates, permissions and sharing worked immediately, and</p>
+<p>within a week the team was writing in it without being asked.</p>
+<p>Obsidian took about four hours of actual configuration to be useful — vault structure,</p>
+<p>templates, plugin choices, and a decision about how notes link. But it became genuinely</p>
+<p>better at week three, and stayed better for individuals writing dense, private notes.</p>
+<p>That is the honest summary: Notion wins the first week, Obsidian wins the sixth month for</p>
+<p>the person doing the thinking.</p>
+<h2>Search is where most knowledge bases actually fail</h2>
+<p>This is the test that mattered most, because a knowledge base nobody can search is a</p>
+<p>write-only archive.</p>
+<div class='tw'><table><thead><tr><th>Test</th><th>Notion</th><th>Obsidian</th></tr></thead><tbody><tr><td>Known term, exact title</td><td>Instant</td><td>Instant</td></tr><tr><td>Fuzzy term, half-remembered</td><td>Good</td><td>Good</td></tr><tr><td>"That thing about the Acme renewal"</td><td>Missed it</td><td>Missed it</td></tr><tr><td>Across 4,000+ notes</td><td>Fast, occasionally misses</td><td>Fast, occasionally misses</td></tr><tr><td>Searching inside code blocks</td><td>Yes</td><td>Yes</td></tr><tr><td>Finding a note by who wrote it</td><td>Yes</td><td>Yes, once indexing is right</td></tr></tbody></table></div>
+<p>Both were better than any built-in search in the previous tool we used, and both failed</p>
+<p>the same test: natural-language recall. "Find me the note about the pricing change we</p>
+<p>discussed with the client in March" defeats keyword search on both platforms. The fix was</p>
+<p>identical on both — a strict note template with a date, a client name field, and a</p>
+<p>one-line summary at the top. Discipline, not software.</p>
+<h2>Permissions and the things you cannot undo</h2>
+<p>Notion's permission model is the strongest of the two. Per-page sharing, per-space roles,</p>
+<p>and a clear view of who has access to what. For a knowledge base containing customer</p>
+<p>details and pricing, that visibility was decisive.</p>
+<p>Obsidian's model is filesystem permissions, which are powerful and completely unmanaged. We</p>
+<p>had one incident where a sensitive folder was synced to a machine that should not have had</p>
+<p>it. Nothing was breached, but the review process was uncomfortable — because with</p>
+<p>filesystem access there is no answer to "who has access to this page" without checking</p>
+<p>everyone's machine.</p>
+<blockquote>If your knowledge base contains anything you would not paste into a public Slack channel,</blockquote>
+<blockquote>choose the tool that can answer "who has access" in one click.</blockquote>
+<h2>Data ownership and the lock-in question</h2>
+<p>Notion is a closed platform. Export gives you Markdown and CSV — usable, lossy for</p>
+<p>databases and formulas, and the result is not a working equivalent of what you had.</p>
+<p>Obsidian is local Markdown files. You own them completely; delete the app and everything</p>
+<p>still opens. That has real value, and it is the reason some teams will never move off it</p>
+<p>regardless of features.</p>
+<p>We tested the Notion export honestly: it worked, and re-importing it into Obsidian gave us</p>
+<p>usable notes and broken database views. If your Notion workspace is database-heavy, plan</p>
+<p>for real migration work — a day or two per hundred database entries, not an afternoon.</p>
+<h2>Performance and scale</h2>
+<p>At around 2,000 notes both were fine in daily use. At 5,000+ notes Notion's editor showed</p>
+<p>noticeable lag on database-heavy pages, and Obsidian needed aggressive settings tuning plus</p>
+<p>a community plugin for search speed. Neither is the bottleneck you should worry about</p>
+<p>before 10,000 notes.</p>
+<h2>The honest recommendation</h2>
+<p><strong>Use Notion</strong> if the knowledge base is genuinely shared — onboarding, runbooks, project</p>
+<p>context. Its permissions and collision handling are the reason. The friction of asking</p>
+<p>people to install a local app is the single biggest reason knowledge bases fail at</p>
+<p>small companies, and Notion removes it.</p>
+<p><strong>Use Obsidian</strong> if you need one system for deep personal notes alongside team docs, if</p>
+<p>your content touches code, or if data ownership is a hard requirement for your clients.</p>
+<p><strong>The best answer for many teams</strong> is to stop trying to make one tool do both jobs. Shared</p>
+<p>team knowledge in Notion, individual thinking in Obsidian, and a rule about what crosses</p>
+<p>between them. That sounds like two systems to maintain and it is — but it matched how</p>
+<p>people actually worked, which no single tool did.</p></article>
+<div class="cta"><h4>Want the short version?</h4><p>Get the monthly StackSignal email — one tool, one real number, one decision. No roundups, no fluff.</p>
+<form class="sub" action="/subscribe/" method="post"><label class="sr" for="s2">Email</label><input id="s2" name="email" type="email" placeholder="you@company.com" required><button>Subscribe</button></form></div>
+<section class="rel"><h2>Related reading</h2><div class="cards"><article class="card">
+<a class="cl" href="/best-ai-tools-for-small-business/">
+<span class="cat">AI Tools</span>
+<h3>7 AI Tools a Small Business Can Actually Budget For</h3>
+<p>Seven AI tools under $100/month that a small team can deploy this week, with real token costs, trial notes and the two that did not survive our test.</p>
+<span class="meta">Updated 2026-10-02 · 8 min read</span>
+</a></article><article class="card">
+<a class="cl" href="/chatgpt-vs-claude-for-business/">
+<span class="cat">AI Tools</span>
+<h3>ChatGPT vs Claude for Business Writing: Which One We&#x27;d Buy</h3>
+<p>A practical comparison of ChatGPT Team and Claude team plans for business writing, with token cost data, tone consistency tests and a clear recommendation.</p>
+<span class="meta">Updated 2026-09-28 · 8 min read</span>
+</a></article><article class="card">
+<a class="cl" href="/zapier-vs-make-vs-n8n-automation/">
+<span class="cat">Automation</span>
+<h3>Zapier vs Make vs n8n: We Ran the Same 14-Step Automation on All Three</h3>
+<p>A hands-on comparison of Zapier, Make and n8n on one real business workflow, with hours saved, failure rates, monthly cost and the hidden cost of maintenance.</p>
+<span class="meta">Updated 2026-09-24 · 8 min read</span>
+</a></article></div></section></main>
+<footer class="site">
+  <div class="wrap grid">
+    <div>
+      <p class="flogo"><span class="mark">◈</span>StackSignal</p>
+      <p>Independent reviews of B2B software and AI tools. Some links are affiliate links — see our <a href="/disclosure/">disclosure</a>. We never sell guest posts or accept payment for a rating.</p>
+    </div>
+    <div><h4>Sections</h4><a href="/ai-tools/">AI Tools</a><a href="/saas-reviews/">SaaS Reviews</a><a href="/automation/">Automation</a><a href="/remote-work/">Remote Work</a><a href="/growth-analytics/">Growth &amp; Analytics</a><a href="/monetization/">Monetization</a></div>
+    <div><h4>Site</h4>
+      <a href="/about/">About &amp; methodology</a>
+      <a href="/contact/">Contact</a>
+      <a href="/advertise/">Advertise</a>
+      <a href="/privacy/">Privacy Policy</a>
+      <a href="/terms/">Terms of Service</a>
+      <a href="/disclosure/">Affiliate disclosure</a>
+      <a href="/sitemap.xml">Sitemap</a>
+    </div>
+    <div><h4>Stay sharp</h4>
+      <p>One email a month: the tools that actually moved our numbers, and the ones we dropped.</p>
+      <form class="sub" action="/subscribe/" method="post">
+        <label class="sr" for="s">Email</label>
+        <input id="s" name="email" type="email" placeholder="you@company.com" required>
+        <button>Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <div class="wrap legal"><p>&copy; {YEAR} StackSignal. All rights reserved. Reviews are editorial opinion; always test on your own data first.</p></div>
+</footer>
+<script>
+var q=document.getElementById('q');
+if(q){q.addEventListener('input',function(){var v=this.value.toLowerCase(),n=0;
+document.querySelectorAll('#results li').forEach(function(li){
+var hit=li.textContent.toLowerCase().indexOf(v)>-1;li.style.display=hit?'':'none';if(hit)n++;});
+document.getElementById('nres').textContent=n;});}
+</script>
+</body>
+</html>
